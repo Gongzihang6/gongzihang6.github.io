@@ -6,7 +6,7 @@
   <link href="https://gongzihang6.github.io/atom.xml" rel="self"/>
   
   <link href="https://gongzihang6.github.io/"/>
-  <updated>2024-04-03T16:09:10.457Z</updated>
+  <updated>2024-04-03T16:17:50.610Z</updated>
   <id>https://gongzihang6.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Git study</title>
+    <link href="https://gongzihang6.github.io/2024/04/04/git-study/"/>
+    <id>https://gongzihang6.github.io/2024/04/04/git-study/</id>
+    <published>2024-04-03T16:17:28.000Z</published>
+    <updated>2024-04-03T16:17:50.610Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;git is good</summary>
+        
+      
+    
+    
+    
+    
+    <category term="git" scheme="https://gongzihang6.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Git</title>
     <link href="https://gongzihang6.github.io/2024/04/04/git/"/>
     <id>https://gongzihang6.github.io/2024/04/04/git/</id>
     <published>2024-04-03T16:08:48.000Z</published>
-    <updated>2024-04-03T16:09:10.457Z</updated>
+    <updated>2024-04-03T16:15:33.199Z</updated>
     
     
       
@@ -35,6 +58,8 @@
     
     
     
+    <category term="git" scheme="https://gongzihang6.github.io/tags/git/"/>
+    
   </entry>
   
   <entry>
@@ -42,14 +67,14 @@
     <link href="https://gongzihang6.github.io/2024/04/03/git-learning/"/>
     <id>https://gongzihang6.github.io/2024/04/03/git-learning/</id>
     <published>2024-04-03T15:49:34.525Z</published>
-    <updated>2024-04-03T16:06:41.683Z</updated>
+    <updated>2024-04-03T16:16:49.557Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;title: {Git learning}&lt;br&gt;date: {2024-04-03 23:49:34}&lt;br&gt;tags: tags&lt;/p&gt;
+    <summary type="html">&lt;p&gt;title: Git learning&lt;br&gt;date: 2024-04-03 23:49:34&lt;br&gt;tags: git&lt;/p&gt;
 &lt;p&gt;categories:</summary>
         
       

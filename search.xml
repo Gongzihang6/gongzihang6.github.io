@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Git study</title>
+      <link href="/2024/04/04/git-study/"/>
+      <url>/2024/04/04/git-study/</url>
+      
+        <content type="html"><![CDATA[<p>git is good !</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Git</title>
       <link href="/2024/04/04/git/"/>
       <url>/2024/04/04/git/</url>
@@ -11,6 +30,12 @@
         <content type="html"><![CDATA[<p>Git is very good !</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
       
     </entry>
     
@@ -21,7 +46,7 @@
       <link href="/2024/04/03/git-learning/"/>
       <url>/2024/04/03/git-learning/</url>
       
-        <content type="html"><![CDATA[<p>title: {Git learning}<br>date: {2024-04-03 23:49:34}<br>tags: tags</p><p>categories: categories</p><p>123456</p>]]></content>
+        <content type="html"><![CDATA[<p>title: Git learning<br>date: 2024-04-03 23:49:34<br>tags: git</p><p>categories: categories</p><p>123456</p>]]></content>
       
       
       
