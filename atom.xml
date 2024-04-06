@@ -6,7 +6,7 @@
   <link href="https://gongzihang6.github.io/atom.xml" rel="self"/>
   
   <link href="https://gongzihang6.github.io/"/>
-  <updated>2024-04-02T09:25:25.498Z</updated>
+  <updated>2024-04-06T15:03:06.029Z</updated>
   <id>https://gongzihang6.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>understanding of yolo network structure</title>
+    <link href="https://gongzihang6.github.io/2024/04/05/understanding-of-yolo-network-structure/"/>
+    <id>https://gongzihang6.github.io/2024/04/05/understanding-of-yolo-network-structure/</id>
+    <published>2024-04-05T05:01:58.000Z</published>
+    <updated>2024-04-06T15:03:06.029Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;yolo网络结构详解&quot;&gt;&lt;a href=&quot;#yolo网络结构详解&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="yolo" scheme="https://gongzihang6.github.io/tags/yolo/"/>
+    
+  </entry>
+  
+  <entry>
     <title></title>
     <link href="https://gongzihang6.github.io/2024/04/03/yolov5s-wang-luo-jie-gou/"/>
     <id>https://gongzihang6.github.io/2024/04/03/yolov5s-wang-luo-jie-gou/</id>
     <published>2024-04-03T11:01:16.411Z</published>
-    <updated>2024-04-02T09:25:25.498Z</updated>
+    <updated>2024-04-06T09:17:06.316Z</updated>
     
     
       
