@@ -493,7 +493,7 @@
 <li>去掉了AlexNet的前两个全连接层，并采用了平均池化，这一设计使得GoogLeNet只有500万参数，比AlexNet少了12倍；</li>
 <li>在网络的中部引入了辅助分类器，克服了训练过程中的梯度消失问题。</li>
 </ul>
-<p><img src="/2024/04/10/jing-dian-juan-ji-shen-jing-wang-luo/GoogLeNet.png" alt="GoogLeNet示意图"></p>
+<p><img src="/2024/04/10/jing-dian-juan-ji-shen-jing-wang-luo/Googlenet.png" alt="GoogLeNet示意图"></p>
 <p>网络主体部分由9个Inception模块构成，在第三个、第六个Inception模块分出两个辅助分类器，帮助底层神经网络参数更新，避免梯度消失。训练的时候，3个分类器一起参与训练，相当于有3个梯度流，最底层梯度为3个梯度流的和，有助于底层参数的更新。但推理时只采用最后一个分类器的输出。</p>
 <img src="/2024/04/10/jing-dian-juan-ji-shen-jing-wang-luo/最初Inception模块.png" alt="最初Inception模块" style="zoom: 67%;">
 
