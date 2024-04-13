@@ -619,7 +619,7 @@
 <td align="center"></td>
 </tr>
 </tbody></table>
-<h5 id="公式中常用到的希腊字母"><a href="#公式中常用到的希腊字母" class="headerlink" title="公式中常用到的希腊字母"></a>公式中常用到的希腊字母</h5><table>
+<h4 id="公式中常用到的希腊字母"><a href="#公式中常用到的希腊字母" class="headerlink" title="公式中常用到的希腊字母"></a>公式中常用到的希腊字母</h4><table>
 <thead>
 <tr>
 <th align="center">符号</th>
@@ -703,7 +703,7 @@
 <td align="center">\Upsilon</td>
 </tr>
 </tbody></table>
-<h5 id="各种运算符号"><a href="#各种运算符号" class="headerlink" title="各种运算符号"></a>各种运算符号</h5><table>
+<h4 id="各种运算符号"><a href="#各种运算符号" class="headerlink" title="各种运算符号"></a>各种运算符号</h4><table>
 <thead>
 <tr>
 <th align="center">符号</th>
@@ -1055,7 +1055,7 @@
 <td align="center">ln</td>
 </tr>
 </tbody></table>
-<h5 id="字形字体设置"><a href="#字形字体设置" class="headerlink" title="字形字体设置"></a>字形字体设置</h5><table>
+<h4 id="字形字体设置"><a href="#字形字体设置" class="headerlink" title="字形字体设置"></a>字形字体设置</h4><table>
 <thead>
 <tr>
 <th align="center">命令</th>
@@ -1094,7 +1094,7 @@
 <td align="center">缩小字体</td>
 </tr>
 </tbody></table>
-<h5 id="公式中常出现的式子样式"><a href="#公式中常出现的式子样式" class="headerlink" title="公式中常出现的式子样式"></a>公式中常出现的式子样式</h5><table>
+<h4 id="公式中常出现的式子样式"><a href="#公式中常出现的式子样式" class="headerlink" title="公式中常出现的式子样式"></a>公式中常出现的式子样式</h4><table>
 <thead>
 <tr>
 <th align="center">命令</th>
@@ -1429,12 +1429,14 @@ $\Bigg( \bigg( \Big( \big((x) \big) \Big) \bigg) \Bigg) $$ \Bigg\{ \bigg\{ \Big\
 
 <p>也可以用自动模式自动调节大小<br>$$<br>f(x,y,z) &#x3D; 3y^2z \left( 3+\frac{7x+5}{1+y^2} \right)<br>$$</p>
 <p>$$<br>f\left(\left[\frac{1+\left{x,y\right}}{\left(\frac{x}{y}+\frac{y}{x}\right)\left(u+1\right)}+a\right]^{3&#x2F;2}\right)<br>$$</p>
-<p>其中“\begin{aligned}”与“\end{aligned}”开辟一个环境，可以换行。<br>$$<br>\begin{aligned}a&#x3D;&amp;\left(1+2+3+ \cdots \right. \&amp; \cdots+ \left. \infty-2+\infty-1+\infty\right)\end{aligned}<br>$$<br>分隔符\middle的作用，以及\可以公式换行<br>$$<br>\begin{aligned} P&#x3D;\left(A&#x3D;2|\frac{A^2}{B}&gt;4\right) \  P&#x3D;\left(A&#x3D;2\middle|\frac{A^2}{B}&gt;4\right) \end{aligned}<br>$$<br>在单行文本中，不是只能写一行公式，而是整个公式占用一行，这里用到了 cases 环境，把多个情况放在一个公式中，每个情况用\换行<br>$$<br>L(Y,f(X))&#x3D;\begin{cases}1,\quad &amp;Y\neq f(X)\0,\quad &amp;Y&#x3D;f(X)\end{cases}<br>$$<br>在公式环境下编写公式，公式环境有很多种，这里列举一些常用环境。例如 equation<br>环境，公式放在这个环境中，自动居中对齐，带有公式编号<br>$$<br>\begin{equation}f(x)&#x3D;3x^2+6(x-2)-1\end{equation}<br>$$<br>$\begin{equation}f(x)&#x3D;3x^{2}+6(x-2)-1 \quad		\tag{1}\end{equation} $		做不到居中，typora中还是得ctrl+shift+m，行间公式且自动带编号（偏好设置里加上）。</p>
+<h4 id="换行和-、-begin-aligned-end-aligned"><a href="#换行和-、-begin-aligned-end-aligned" class="headerlink" title="换行和&amp;、\begin{aligned}  \end{aligned}"></a>换行和&amp;、\begin{aligned}  \end{aligned}</h4><p>其中“\begin{aligned}”与“\end{aligned}”开辟一个环境，可以换行。<br>$$<br>\begin{aligned}a&#x3D;&amp;\left(1+2+3+ \cdots \right. \&amp; \cdots+ \left. \infty-2+\infty-1+\infty\right)\end{aligned}<br>$$<br>分隔符\middle的作用，以及\可以公式换行<br>$$<br>\begin{aligned} P&#x3D;\left(A&#x3D;2|\frac{A^2}{B}&gt;4\right) \  P&#x3D;\left(A&#x3D;2\middle|\frac{A^2}{B}&gt;4\right) \end{aligned}<br>$$</p>
+<h4 id="分段函数"><a href="#分段函数" class="headerlink" title="分段函数"></a>分段函数</h4><p>在单行文本中，不是只能写一行公式，而是整个公式占用一行，这里用到了 cases 环境，把多个情况放在一个公式中，每个情况用\换行<br>$$<br>L(Y,f(X))&#x3D;\begin{cases}1,\quad &amp;Y\neq f(X)\0,\quad &amp;Y&#x3D;f(X)\end{cases}<br>$$<br>在公式环境下编写公式，公式环境有很多种，这里列举一些常用环境。例如 equation<br>环境，公式放在这个环境中，自动居中对齐，带有公式编号<br>$$<br>\begin{equation}f(x)&#x3D;3x^2+6(x-2)-1\end{equation}<br>$$<br>$\begin{equation}f(x)&#x3D;3x^{2}+6(x-2)-1 \quad		\tag{1}\end{equation} $		做不到居中，typora中还是得ctrl+shift+m，行间公式且自动带编号（偏好设置里加上）。</p>
 <p>\begin{equation}\begin{aligned}x&#x3D;&amp;\left(a+b+c \right. \&amp;\left. +d+e+f \right)\end{aligned}\end{equation}		两个&amp;标明了换行后对齐的位置</p>
 <p>$\begin{equation}\begin{aligned}x&#x3D;&amp;\left(a+b+c \right. \&amp;\left. +d+e+f \right)\end{aligned} \quad \tag{2}\end{equation}$   </p>
 <p>\left.\begin{aligned}x+y &amp;&gt; 5 \ x-y &amp;&gt; 11 \end{aligned}\ \right}\Rightarrow x^2-y^2&gt;55</p>
-<p>还可以把括号放在左边，只需要换一下“影子括号”位置就可以了。<br>$$<br>\left.\begin{aligned}x+y &amp;&gt; 5 \ x-y &amp;&gt; 11 \end{aligned}\ \right}\Rightarrow x^2-y^2&gt;55<br>$$<br>在 equation 环境中添加 array 环境，就可以实现数组或者表格的形式，其中每个元素用 &amp; 分隔， \hline表示横线。公式中如果有中文，就要用\text{}或者\mbox{}装载，否则不能正常输出中文。<br>$$<br>\begin{equation}\begin{array}{c|l|c|r}<br>n &amp; \text{左对齐} &amp; \text{居中对齐} &amp; \text{右对齐} \<br>\hline1 &amp; 0.24 &amp; 1 &amp; 125 \<br>\hline2 &amp; -1 &amp; 189 &amp; -8 \<br>\hline3 &amp; -20 &amp; 2000 &amp; 1+10i<br>\end{array}\end{equation}<br>$$<br>单行文本也可以表示矩阵和公式数组。</p>
-<p>$$<br>\begin{aligned}\left(\begin{array}{ccc|c}<br>a11 &amp; a12 &amp; a13 &amp; b1 \<br>a21 &amp; a22 &amp; a23 &amp; b2 \<br>a31 &amp; a32 &amp; a33 &amp; b3 \<br>\end{array}\right)\end{aligned}<br>$$<br><code>\left\&#123;</code> 表示一个左大括号，它会自动调整大小以适应其后的内容。通常，<code>\left\&#123;</code> 配合 <code>\right\&#125;</code> 使用，<code>\right\&#125;</code> 表示相应的右大括号，以确保左右括号大小一致且适应所包裹内容的大小。\right.表示不显示右边的大括号。\begin{array}和\end{array}表示数组、表格等环境，{ccc|c}表示表格格式，比如有几列等等。<br>$$<br>\left{<br>\begin{array}{c}<br>a_1x+b_1y+c_1z&#x3D;d_1 \<br>a_2x+b_2y+c_2z&#x3D;d_2 \<br>a_3x+b_3y+c_3z&#x3D;d_3<br>\end{array}<br>\right.$<br>$$<br><img src="/2024/04/08/latex-ru-men-xue-xi/矩阵.png" alt="latex公式矩阵表达" style="zoom:60%;"><br>$$<br>\begin{matrix}<br>a &amp;b &amp;c \<br>d &amp;e &amp;f \<br>g &amp;h &amp;j<br>\end{matrix}<br>$$</p>
+<p>还可以把括号放在左边，只需要换一下“影子括号”位置就可以了。<br>$$<br>\left.\begin{aligned}x+y &amp;&gt; 5 \ x-y &amp;&gt; 11 \end{aligned}\ \right}\Rightarrow x^2-y^2&gt;55<br>$$</p>
+<h4 id="表格、矩阵"><a href="#表格、矩阵" class="headerlink" title="表格、矩阵"></a>表格、矩阵</h4><p>在 equation 环境中添加 array 环境，就可以实现数组或者表格的形式，其中每个元素用 &amp; 分隔， \hline表示横线。公式中如果有中文，就要用\text{}或者\mbox{}装载，否则不能正常输出中文。<br>$$<br>\begin{equation}\begin{array}{c|l|c|r}<br>n &amp; \text{左对齐} &amp; \text{居中对齐} &amp; \text{右对齐} \<br>\hline1 &amp; 0.24 &amp; 1 &amp; 125 \<br>\hline2 &amp; -1 &amp; 189 &amp; -8 \<br>\hline3 &amp; -20 &amp; 2000 &amp; 1+10i<br>\end{array}\end{equation}<br>$$<br>单行文本也可以表示矩阵和公式数组。</p>
+<p>$$<br>\begin{aligned}\left(\begin{array}{ccc|c}<br>a11 &amp; a12 &amp; a13 &amp; b1 \<br>a21 &amp; a22 &amp; a23 &amp; b2 \<br>a31 &amp; a32 &amp; a33 &amp; b3 \<br>\end{array}\right)\end{aligned}<br>$$<br><code>\left\&#123;</code> 表示一个左大括号，它会自动调整大小以适应其后的内容。通常，<code>\left\&#123;</code> 配合 <code>\right\&#125;</code> 使用，<code>\right\&#125;</code> 表示相应的右大括号，以确保左右括号大小一致且适应所包裹内容的大小。\right.表示不显示右边的大括号。\begin{array}和\end{array}表示数组、表格等环境，{ccc|c}表示表格格式，比如有几列等等。<br>$$<br>\left{<br>\begin{array}{c}<br>a_1x+b_1y+c_1z&#x3D;d_1 \<br>a_2x+b_2y+c_2z&#x3D;d_2 \<br>a_3x+b_3y+c_3z&#x3D;d_3<br>\end{array}<br>\right.$<br>$$<br><img src="/2024/04/08/latex-ru-men-xue-xi/矩阵.png" alt="latex公式矩阵表达" style="zoom:60%;"><br>$$<br>\begin{matrix}<br>a &amp;b &amp;c \\<br>d &amp;e &amp;f \\<br>g &amp;h &amp;j<br>\end{matrix}<br>$$</p>
 <p>$$<br>\begin{bmatrix}<br>a &amp;b &amp;c \<br>d &amp;e &amp;f \<br>g &amp;h &amp;j<br>\end{bmatrix}<br>$$</p>
 <p>$$<br>\left(<br>\begin{matrix}<br>a &amp;b &amp;c \<br>d &amp;e &amp;f \<br>g &amp;h &amp;j<br>\end{matrix}<br>\right)<br>$$</p>
 
